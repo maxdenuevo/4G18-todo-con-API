@@ -1,0 +1,71 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.btn-link {
+  color: #dc3545;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  padding: 0;
+  line-height: 1;
+}
+
+.list-group-item:hover .btn-link {
+  opacity: 1;
+}
+
+.btn-link:hover {
+  color: #c82333;
+  text-decoration: none;
+}
+
+.bi-x-lg {
+  font-size: 1.2rem;
+}
+
+hr.solid {
+  border-top: 1px solid #dee2e6;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.display-2.text-danger.text-opacity-25 {
+  font-weight: 300;
+}
+
+.input-group-lg .form-control {
+  font-size: 1.1rem;
+}
